@@ -2,10 +2,6 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
-
-import heroImg from "/hero.png?url";
-
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import gsap from "gsap";
@@ -65,7 +61,7 @@ export default function App() {
         {/* Background Image with Enhanced Dark Overlay */}
         <div className="absolute inset-0">
           <img
-            src={heroImg}
+            src="/hero.png"
             alt="Rockelle Pilates Studio"
             className="h-full w-full object-cover"
           />
